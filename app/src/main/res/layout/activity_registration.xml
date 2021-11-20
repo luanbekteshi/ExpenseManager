@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:gravity="center"
+    tools:context=".RegistrationActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:padding="15dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:hint="Email"
+            android:id="@+id/email_reg"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:hint="Password"
+            android:background="@drawable/edittext_background"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:inputType="textPassword"
+            android:textAppearance="?android:textAppearanceMedium"
+
+            android:id="@+id/password_reg"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Register"
+            android:id="@+id/btn_register"
+            android:background="@drawable/edittext_background"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/signin_here"
+            android:textColor="@android:color/white"
+            android:text="Already have an account? Sign in here."
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>
